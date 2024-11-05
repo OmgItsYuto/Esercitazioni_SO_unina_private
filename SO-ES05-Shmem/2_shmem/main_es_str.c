@@ -33,7 +33,7 @@ int main(){
 
  	printf("Contenuto SHM: %s\n", p);
 
-        shmctl(ds_shm, IPC_RMID, NULL);
+        //shmctl(ds_shm, IPC_RMID, NULL); //commento per vedere questa area di memoria al di fuori di questo programma
 
         return 0;
 }

@@ -5,6 +5,7 @@
 #include <sys/sem.h>
 #include <sys/shm.h>
 #include <sys/time.h>
+#include <time.h>
 #include <unistd.h>
 #include <stdlib.h>
 
