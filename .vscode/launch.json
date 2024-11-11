@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/aldo-manzo/esercitazioni/SO-ES05-Shmem/2_shmem",
-      "program": "/home/aldo-manzo/esercitazioni/SO-ES05-Shmem/2_shmem/build/Debug/outDebug",
+      "cwd": "/home/aldo-manzo/esercitazioni/SO-ES09-Monitor/2_ProdCons_SingoloBuffer_MonitorSignalContinue",
+      "program": "/home/aldo-manzo/esercitazioni/SO-ES09-Monitor/2_ProdCons_SingoloBuffer_MonitorSignalContinue/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

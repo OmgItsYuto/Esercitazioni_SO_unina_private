@@ -25,7 +25,7 @@ void init_monitor (Monitor *M,int num_var){
     int i;
 
     //alloca e inizializza il mutex per l'accesso al monitor
-    M->mutex=semget(IPC_PRIVATE,1,IPC_CREAT|0664);
+    M->mutex=semget(IPC_PRIVATE,1,IPC_CREAT|0664); //se si vuole utilizzare queste funzioni in programmi diversi (con exec) è necessario modificare la libreria
 
     semctl(M->mutex,0,SETVAL,1);
 
@@ -33,7 +33,7 @@ void init_monitor (Monitor *M,int num_var){
     //alloca e inizializza il semaforo per la coda urgent
     M->urgent_sem=semget(IPC_PRIVATE,1,IPC_CREAT|0664);
 
-    semctl(M->urgent_sem,0,SETVAL,0);
+    semctl(M->urgent_sem,0,SETVAL,0); //utilizzato per accodare i processi urgenti
 
 
     //alloca e inizializza i semafori con cui realizzare le var.condition

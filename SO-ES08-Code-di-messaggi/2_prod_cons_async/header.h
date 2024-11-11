@@ -1,7 +1,7 @@
 				/*-----HEADER FILE----*/
 #ifndef __HEADER
 #define __HEADER
-#define MESSAGGIO 1
+#define MESSAGGIO 1 //necessariamente diverso da 0
 
 typedef char msg [40];
 

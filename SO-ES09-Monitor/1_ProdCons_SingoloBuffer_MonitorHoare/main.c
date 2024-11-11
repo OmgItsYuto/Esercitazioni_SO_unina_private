@@ -80,7 +80,7 @@ int main() {
 
 			sleep(5);
 
-			srand(time(NULL));
+			srand(time(NULL)*getpid());
 
 			int valore = rand() % 10;
 
